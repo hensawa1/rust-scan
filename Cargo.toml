@@ -1,9 +1,0 @@
-[package]
-name = "rusty_scan"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-tokio = { version = "1", features = ["full"] } # Para assincronismo (velocidade)
-clap = { version = "4", features = ["derive"] } # Para linha de comando (CLI)
-colored = "2" # Para cores no terminal
